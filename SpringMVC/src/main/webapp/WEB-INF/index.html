@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fileGenerator">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<!--<link rel="icon" href="../../favicon.ico">-->
+
+<title>SBB</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/justified-nav.css" rel="stylesheet">
+<link href="css/estilos.css" rel="stylesheet">
+
+<script src="resources/controller/angular.js"></script>
+<script src="resources/controller/controller.js"></script>
+
+</head>
+
+<body ng-controller="fileController">
+
+	<div class="container">
+
+
+		<div ng-include="'menu.html'"></div>
+		<div ng-include="'formularios.html'"></div>
+		<div ng-include="'tables.html'"></div>
+
+
+		<footer class="footer">
+			<p>cas distribuições versao 0.0.1</p>
+		</footer>
+
+	</div>
+
+</body>
+</html>
